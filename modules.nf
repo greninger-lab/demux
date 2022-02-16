@@ -7,8 +7,8 @@ process Demux {
     maxRetries 2
 
     input:
-        file CCS_BAM,
-        file READS_BAM,
+        file CCS_BAM
+        file READS_BAM
         file FASTA
     output: 
         file("*")
